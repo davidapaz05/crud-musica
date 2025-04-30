@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+🎵 Musica CRUD
+Aplicação web feita com React para gerenciamento (CRUD) de músicas. Este projeto permite adicionar, visualizar, editar e remover registros musicais de maneira simples e eficiente.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Tecnologias Utilizadas
+React 19
 
-## Available Scripts
+Bootstrap 5
 
-In the project directory, you can run:
+React Bootstrap
 
-### `npm start`
+UUID
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create React App
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📦 Instalação
+Clone o repositório e instale as dependências:
 
-### `npm test`
+bash
+Copiar
+Editar
+git clone https://github.com/davidapaz05/musica-crud.git
+cd musica-crud
+npm install
+🧪 Scripts Disponíveis
+No diretório do projeto, você pode rodar:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
+Inicia a aplicação em modo de desenvolvimento.
+Acesse: http://localhost:3000
 
-### `npm run build`
+npm run build
+Cria uma versão otimizada para produção na pasta build.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm test
+Executa os testes em modo interativo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run eject
+Atenção: Esta ação é irreversível! Expõe as configurações internas do CRA.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🌐 Deploy no Vercel
+Este projeto pode ser facilmente implantado no Vercel:
 
-### `npm run eject`
+Crie uma conta em vercel.com
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Conecte seu repositório GitHub ao Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Escolha o repositório musica-crud
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A configuração padrão do Vercel já reconhece projetos React (CRA), então você pode simplesmente clicar em Deploy
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Após a conclusão, seu projeto estará disponível em uma URL pública como:
+https://musica-crud.vercel.app
 
-## Learn More
+Dica: Para deploy manual, você também pode rodar npm run build e subir os arquivos da pasta build como conteúdo estático.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📁 Estrutura do Projeto
+bash
+Copiar
+Editar
+musica-crud/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+📚 Aprendizado
+Este projeto foi iniciado com Create React App e tem como foco o aprendizado de conceitos fundamentais de React como:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Componentização
 
-### Code Splitting
+Manipulação de estado com useState
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Renderização condicional
 
-### Analyzing the Bundle Size
+Estilização com Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🛠️ Funcionalidades
+✅ Adicionar nova música
 
-### Making a Progressive Web App
+✅ Listar músicas cadastradas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+✅ Editar músicas
 
-### Advanced Configuration
+✅ Deletar músicas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📄 Licença
+Este projeto está licenciado sob a licença MIT.
